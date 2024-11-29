@@ -68,11 +68,18 @@ function App() {
       <div className="container">
         <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
             <div class="col-lg-6 px-0">
-            <h1 class="display-4 fst-italic">Command Recognition with TensorflowJS</h1>
-            <p class="lead my-3">
-                This is a simple demonstration of how to use TensorflowJS to recognize voice commands.
-                The model used is the Speech Commands model from TensorflowJS.
-            </p>
+              <h1 class="display-4 fst-italic">Command Recognition with TensorflowJS</h1>
+              <p class="lead my-3">
+                  This is a simple demonstration of how to use TensorflowJS to recognize voice commands.
+                  The model used is the Speech Commands model from TensorflowJS.
+              </p>
+              <p className="me-2">
+                The commands to test include the below listed: numbers "zero" to "nine", "up", "down", "left", "right", "go", "stop", 
+                "yes", "no", as well as the additional categories of "unknown word" and "background noise".  
+              </p>
+              <p>
+              Model Reference: <a href="https://github.com/tensorflow/tfjs-models/tree/master/speech-commands">Find Here</a>
+              </p>
             </div>
         </div>
         <div className='row'>
